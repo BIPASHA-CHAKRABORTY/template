@@ -28,6 +28,10 @@ int main()
   {
       cout<<"Exception Caught:"<<D;
   }
-  
+  /*BESIDES WRITING ALL CATCH FUN FOR EVERY THROW WE CAN USE SINGE LINE CODE AND i.e-
+  catch(...)
+  {
+  cout<<"All exceptions caught";
+  }*/
   return 0;
 }
